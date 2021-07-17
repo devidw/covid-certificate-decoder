@@ -1,0 +1,12 @@
+= Covid Certificate Decoder
+
+Decode your QR-Codes to the JSON-format
+
+== Usage
+.Sample usage
+[source, python]
+----
+from covid_certificate_decoder import CovidCertificateDecoder
+
+cert = CovidCertificateDecoder.decode('HC1:…')
+----
